@@ -1,8 +1,16 @@
+
+/* Korean Hanji paper texture */
 html[data-theme-pack="hanji"]:not(.dark) body::after {
   content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
   pointer-events: none;
-  background: rgba(200, 60, 30, 0.35);
+
+  background-image: url("/hanji-paper.webp");
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
+
+  opacity: 0.85;
+  mix-blend-mode: multiply;
 }
