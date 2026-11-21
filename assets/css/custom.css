@@ -1,5 +1,9 @@
-/* Korean Hanji paper texture */
-html[data-theme-pack="hanji"]:not(.dark) body::after {
+
+/* ========================================
+   HANJI — DAY
+======================================== */
+
+html:not(.dark) body::after {
   content: "";
   position: fixed;
   inset: 0;
@@ -14,26 +18,30 @@ html[data-theme-pack="hanji"]:not(.dark) body::after {
   mix-blend-mode: multiply;
 }
 
-/* Hanji: Joseon moonlit night */
 
-html.dark[data-theme-pack="hanji"] body::after {
+/* ========================================
+   HANJI — NIGHT
+   Joseon Moonlit Study
+======================================== */
+
+/* Dark Hanji paper texture */
+html.dark body::after {
   content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
   pointer-events: none;
 
-  /* Preserve the handmade paper texture */
   background-image: url("/hanji-paper.webp");
   background-repeat: repeat;
   background-size: 1000px 1000px;
 
-  opacity: 0.35;
+  opacity: 0.45;
   mix-blend-mode: soft-light;
 }
 
-/* A soft full moon and moonlight glow */
-html.dark[data-theme-pack="hanji"] body::before {
+/* Moonlight */
+html.dark body::before {
   content: "";
   position: fixed;
   top: 16%;
@@ -41,6 +49,7 @@ html.dark[data-theme-pack="hanji"] body::before {
   width: 240px;
   height: 240px;
   border-radius: 50%;
+
   pointer-events: none;
   z-index: 9998;
 
@@ -54,13 +63,14 @@ html.dark[data-theme-pack="hanji"] body::before {
   );
 }
 
-/* Warm wooden architectural accent */
-html.dark[data-theme-pack="hanji"] #site-header {
+/* Warm architectural accent */
+html.dark #site-header {
   border-bottom: 1px solid rgba(201, 169, 109, 0.35);
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-  html.dark[data-theme-pack="hanji"] body::before {
+  html.dark body::before {
     width: 160px;
     height: 160px;
     top: 12%;
@@ -68,4 +78,3 @@ html.dark[data-theme-pack="hanji"] #site-header {
     opacity: 0.45;
   }
 }
-
