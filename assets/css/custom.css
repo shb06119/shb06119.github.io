@@ -23,20 +23,27 @@ html:not(.dark) body::after {
 ======================================== */
 
 
-/* Night hanji paper texture */
-html.dark body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 9998;
-  pointer-events: none;
 
-  background-image: url("/hanji-night-paper.png");
+/* Night Hanji paper as an actual background */
+html.dark body {
+  background-color: #172433 !important;
+  background-image: url("/hanji-night-paper.png") !important;
   background-repeat: repeat;
   background-size: 1000px 1000px;
+  background-attachment: fixed;
+}
 
-  opacity: 0.30;
-  mix-blend-mode: normal;
+/* Remove the old overlay covering the content */
+html.dark body::after {
+  content: none !important;
+}
+
+/* Let the paper background show through the sections */
+html.dark main,
+html.dark main section,
+html.dark .home-section-bg {
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* Joseon lantern overlay */
