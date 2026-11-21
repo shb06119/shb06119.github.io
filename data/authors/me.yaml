@@ -57,18 +57,50 @@ education:
     end: 2023-02
 
 experience:
-  - role: AI Research Scientist
-    org: Company TBD
-    start: 2027-XX-XX
-    summary: |
-      TBD
   - role: Research Intern
-    org: KAUST
+    org: BAYESCOMP, Department of Statistics, CEMSE, KAUST
     start: 2026-09-28
     end: 2026-12-27
     summary: |
-      Scalable Bayesian inference for Continuous-time Structural Equation Model. Co-authored paper.
-
+      Scalable Bayesian inference for Continuous-time Structural Equation Model
+  - role: Asia Summer School
+    org: Department of Global Health Policy, Graduate School of Medicine, The University of Tokyo
+    start: 2026-07-12
+    end: 2026-07-18
+    summary: |
+      Time Series Regression for Public Health
+  - role: Student Paper Presentation
+    org: Korean Statistical Society Annual Conference
+    start: 2025-12-19
+    end: 2025-12-20
+    summary: |
+      A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
+  - role: Poster Presentation
+    org: Korean Data & Information Science Society Conference
+    start: 2025-10-31
+    end: 2025-11-01
+    summary: |
+      A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
+  - role: Teaching Assistant
+    org: Department of Mathematical Sciences, KAIST
+    start: 2023-09
+    end: 2026-02
+    summary: |
+      Probability and Statistics-MAS250 (2023F, 2024S, 2024F), Probability and Statistics-CC511 (2024S, 2024F), 
+      Introduction to Linear Algebra-MAS109 (2025S), Calculus II-MAS102 (2025F)
+  - role: Mentor
+    org: Department of Statistics, HUFS
+    start: 2022-09
+    end: 2022-12
+    summary: |
+      Mentoring Program in Probability distributions-F10376
+  - role: Samsung Dream Class Mentor
+    org: Samsung
+    start: 2021-07
+    end: 2021-12
+    summary: |
+      Mathematics Education and Career Guidance
+      
 skills:
   - name: Technical Skills
     items:
@@ -85,15 +117,45 @@ skills:
 
 languages:
   - name: English
-    level: 5
-    label: Native
+    level: 4
+    label: Intermediate
   - name: Arabic
     level: 1
     label: Basic
 
 awards:
-  - title: TBD
-    awarder: TBD
-    date: "20XX-XX-XX"
-    summary: TBD
+  - title: Honorable Mention (Student Paper Presentation)
+    awarder: Korean Statistical Society Annual Conference
+    date: "2025"
+    summary: A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
+    icon: hero/trophy
+  - title: Honorable Mention (Poster Presentation)
+    awarder: Korean Data & Information Science Society Conference
+    date: "2025"
+    summary: A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
+    icon: hero/trophy
+  - title: Outstanding Teaching Assistant
+    awarder: KAIST
+    date: "Fall 2025"
+    summary: Probability and Statistics-MAS250
+    icon: hero/trophy
+  - title: Outstanding Teaching Assistant
+    awarder: KAIST
+    date: "Fall 2024"
+    summary: Calculus II-MAS102
+    icon: hero/trophy
+  - title: Best Mentor
+    awarder: HUFS
+    date: "Fall 2022"
+    summary: Probability distributions-F10376
+    icon: hero/trophy
+  - title: National Science and Engineering Full Scholarship
+    awarder: Korea Student Aid Foundation
+    date: "2021"
+    summary: Two-year (2021S - 2022F) full scholarship through a national program supporting undergraduate students in science and engineering
+    icon: hero/trophy
+  - title: Bronze Prize
+    awarder: Korean Mathematical Society
+    date: "2020"
+    summary: 39th Undergraduate Mathematics Competition Division II
     icon: hero/trophy
