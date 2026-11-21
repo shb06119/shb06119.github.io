@@ -1,4 +1,3 @@
-
 /* ========================================
    HANJI — DAY
 ======================================== */
@@ -18,63 +17,58 @@ html:not(.dark) body::after {
   mix-blend-mode: multiply;
 }
 
-
 /* ========================================
    HANJI — NIGHT
-   Joseon Moonlit Study
+   Joseon lantern night
 ======================================== */
 
-/* Dark Hanji paper texture */
+/* Night hanji paper texture */
 html.dark body::after {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: 9999;
+  z-index: 9998;
   pointer-events: none;
 
-  background-image: url("/hanji-paper.webp");
+  background-image: url("/hanji-night-paper.png");
   background-repeat: repeat;
   background-size: 1000px 1000px;
 
-  opacity: 0.45;
-  mix-blend-mode: soft-light;
+  opacity: 0.95;
+  mix-blend-mode: normal;
 }
 
-/* Moonlight */
+/* Joseon lantern overlay */
 html.dark body::before {
   content: "";
   position: fixed;
-  top: 16%;
-  right: 5%;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-
+  top: 4%;
+  right: 2%;
+  width: 320px;
+  height: 320px;
+  z-index: 9999;
   pointer-events: none;
-  z-index: 9998;
 
-  background: radial-gradient(
-    circle,
-    rgba(240, 224, 181, 0.70) 0%,
-    rgba(240, 224, 181, 0.66) 26%,
-    rgba(240, 224, 181, 0.16) 29%,
-    rgba(240, 224, 181, 0.07) 48%,
-    transparent 72%
-  );
+  background-image: url("/hanji-night-lantern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
 }
 
-/* Warm architectural accent */
+/* subtle header accent */
 html.dark #site-header {
-  border-bottom: 1px solid rgba(201, 169, 109, 0.35);
+  border-bottom: 1px solid rgba(201, 169, 109, 0.28);
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   html.dark body::before {
-    width: 160px;
-    height: 160px;
-    top: 12%;
-    right: 2%;
-    opacity: 0.45;
+    width: 180px;
+    height: 180px;
+    top: 5%;
+    right: 1%;
+  }
+
+  html.dark body::after {
+    background-size: 700px 700px;
   }
 }
