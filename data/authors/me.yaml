@@ -12,7 +12,7 @@ postnominals:
   - PhD
   - MIEEE
 status:
-  icon: "🤓"
+  icon: ""
 role: Researcher
 bio: |
   I am currently a visiting research student at King Abdullah University of Science and Technology (KAUST), 
@@ -136,17 +136,17 @@ awards:
     icon: hero/trophy
   - title: Outstanding Teaching Assistant
     awarder: KAIST
-    date: "Fall 2025"
+    date: "2025 Fall"
     summary: Probability and Statistics-MAS250
     icon: hero/trophy
   - title: Outstanding Teaching Assistant
     awarder: KAIST
-    date: "Fall 2024"
+    date: "2024 Fall"
     summary: Calculus II-MAS102
     icon: hero/trophy
   - title: Best Mentor
     awarder: HUFS
-    date: "Fall 2022"
+    date: "2022 Fall"
     summary: Probability distributions-F10376
     icon: hero/trophy
   - title: National Science and Engineering Full Scholarship
