@@ -80,3 +80,32 @@ html.dark #site-header {
     background-size: 700px 700px;
   }
 }
+
+
+/* ========================================
+   HANJI NIGHT — NAVIGATION BAR
+======================================== */
+
+/* Dark navigation background */
+html.dark #site-header,
+html.dark header.hb-header,
+html.dark body > header {
+  background-color: #101B29 !important;
+  color: #E7DEC9 !important;
+  border-bottom: 1px solid rgba(201, 169, 109, 0.35);
+}
+
+/* Navigation text and icons */
+html.dark #site-header a,
+html.dark #site-header button,
+html.dark header.hb-header a,
+html.dark header.hb-header button {
+  color: #E7DEC9 !important;
+}
+
+/* Hover color */
+html.dark #site-header a:hover,
+html.dark header.hb-header a:hover {
+  color: #D0B57A !important;
+}
+
