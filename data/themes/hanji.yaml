@@ -1,0 +1,39 @@
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Hanji"
+    vendor: "custom"
+    version: "1.0.0"
+    description: "Traditional Korean paper aesthetic"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#415C52"
+      secondary: "#9B5948"
+      neutral: "#78716C"
+    surfaces:
+      background: "#F4EEDF"
+      foreground: "#292D28"
+      header:
+        background: "#EAE1CF"
+        foreground: "#292D28"
+      footer:
+        background: "#EAE1CF"
+        foreground: "#514C43"
+
+  dark:
+    colors:
+      primary: "#A9C3AE"
+      secondary: "#D1A28C"
+      neutral: "#57534E"
+    surfaces:
+      background: "#242521"
+      foreground: "#EAE3D3"
+      header:
+        background: "#30312B"
+        foreground: "#EAE3D3"
+      footer:
+        background: "#30312B"
+        foreground: "#C5BDAF"
