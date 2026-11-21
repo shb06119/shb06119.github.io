@@ -22,6 +22,7 @@ html:not(.dark) body::after {
    Joseon lantern night
 ======================================== */
 
+
 /* Night hanji paper texture */
 html.dark body::after {
   content: "";
@@ -34,7 +35,7 @@ html.dark body::after {
   background-repeat: repeat;
   background-size: 1000px 1000px;
 
-  opacity: 0.95;
+  opacity: 0.20;
   mix-blend-mode: normal;
 }
 
