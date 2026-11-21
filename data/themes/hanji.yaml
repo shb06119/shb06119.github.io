@@ -25,15 +25,15 @@ hugoblox:
 
   dark:
     colors:
-      primary: "#A9C3AE"
-      secondary: "#D1A28C"
-      neutral: "#57534E"
+      primary: "#D0B57A"
+      secondary: "#9BB8BD"
+      neutral: "#858F98"
     surfaces:
-      background: "#242521"
-      foreground: "#EAE3D3"
+      background: "#172433"
+      foreground: "#E6DDC8"
       header:
-        background: "#30312B"
-        foreground: "#EAE3D3"
+        background: "#101B29"
+        foreground: "#E9DFC7"
       footer:
-        background: "#30312B"
-        foreground: "#C5BDAF"
+        background: "#101B29"
+        foreground: "#C4BDAC"
