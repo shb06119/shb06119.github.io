@@ -109,3 +109,26 @@ html.dark header.hb-header a:hover {
   color: #D0B57A !important;
 }
 
+
+/* ========================================
+   HANJI — PROFILE PHOTO FRAME
+======================================== */
+
+/* Day: traditional handmade-paper frame */
+html:not(.dark) img.avatar {
+  border: 5px solid #D8C6A3 !important;
+  box-shadow:
+    0 0 0 3px #F4EEDF,
+    0 0 0 6px #B69E78,
+    0 6px 18px rgba(65, 50, 32, 0.18);
+}
+
+/* Night: warm lantern-lit frame */
+html.dark img.avatar {
+  border: 5px solid #C9A96D !important;
+  box-shadow:
+    0 0 0 3px #172433,
+    0 0 0 6px #977748,
+    0 0 24px rgba(227, 178, 98, 0.28);
+}
+
