@@ -23,17 +23,17 @@ hugoblox:
         background: "#EAE1CF"
         foreground: "#514C43"
 
-  dark:
-    colors:
-      primary: "#D0B57A"
-      secondary: "#9BB8BD"
-      neutral: "#858F98"
-    surfaces:
-      background: "#172433"
-      foreground: "#E6DDC8"
-      header:
-        background: "#101B29"
-        foreground: "#E9DFC7"
-      footer:
-        background: "#101B29"
-        foreground: "#C4BDAC"
+dark:
+  colors:
+    primary: "#D0B57A"
+    secondary: "#B89A6A"
+    neutral: "#7E7A73"
+  surfaces:
+    background: "#111827"
+    foreground: "#E7DEC9"
+    header:
+      background: "#0E1622"
+      foreground: "#E7DEC9"
+    footer:
+      background: "#0E1622"
+      foreground: "#C8BEAA"
