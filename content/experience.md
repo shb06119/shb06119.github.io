@@ -18,26 +18,13 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: steps
+- block: resume-experience
     id: activity
     content:
-      title: Activity
-      subtitle: Academic & Professional Activities
-      items:
-        - title: Teaching Assistant
-          text: "**2026** · KAIST — Teaching activities"
-
-        - title: Research Presentation
-          text: "**2025** · Academic conference presentation"
-
-        - title: Academic Mentoring
-          text: "**2024** · Mathematics and statistics mentoring"
-
+      username: activity
     design:
-      layout: timeline
-      marker_style: dot
-      connector: line
-
+      date_format: 'January 2006'
+      is_education_first: false
   - block: resume-skills
     content:
       title: Skills & Hobbies
