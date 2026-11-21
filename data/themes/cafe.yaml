@@ -1,0 +1,37 @@
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Café"
+    vendor: "custom"
+    version: "1.0.0"
+    description: "Warm latte, espresso, and café wood tones"
+  type: "dual"
+  light:
+    colors:
+      primary: "#885235"
+      secondary: "#AA7C4F"
+      neutral: "#74685F"
+    surfaces:
+      background: "#F7F0E4"
+      foreground: "#35291F"
+      header:
+        background: "#E9D9C5"
+        foreground: "#35291F"
+      footer:
+        background: "#E9D9C5"
+        foreground: "#574233"
+  dark:
+    colors:
+      primary: "#D9AC83"
+      secondary: "#C99660"
+      neutral: "#A6998D"
+    surfaces:
+      background: "#211B17"
+      foreground: "#F2E6D7"
+      header:
+        background: "#30231C"
+        foreground: "#F2E6D7"
+      footer:
+        background: "#30231C"
+        foreground: "#DCC6AF"
+
