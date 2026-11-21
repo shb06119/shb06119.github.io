@@ -15,12 +15,15 @@ status:
   icon: "🤓"
 role: Researcher
 bio: |
-  I am currently a visiting research student at King Abdullah University of Science and Technology (KAUST), 
-  working with Prof. Håvard Rue's research group. My research interests lie in Bayesian statistics and statistical computation, 
-  particularly scalable Bayesian inference, latent Gaussian models, and stochastic processes. 
-  I am also interested in the artificial intelligence. I received my M.S. in Mathematics from KAIST in August 2026 
-  and my B.S. in Statistics from Hankuk University of Foreign Studies (HUFS). 
-  My master's research focused on Bayesian hierarchical modeling and small-area estimation.
+I am currently a visiting research student at King Abdullah University of Science and Technology (KAUST), 
+working with Professor Håvard Rue and Research Specialist Haziq Jamil in the Bayesian Computational Statistics 
+and Modeling (BAYESCOMP) research group. My current research focuses on scalable Bayesian inference 
+for continuous-time structural equation models.
+
+I received my M.S. in Mathematical Sciences from the Korea Advanced Institute of Science and Technology (KAIST) 
+in August 2026, under the supervision of Professor Yeonseung Chung. My master's research focused on 
+Bayesian hierarchical modeling and small-area estimation. Prior to that, I earned my B.S. in Statistics from 
+Hankuk University of Foreign Studies (HUFS).
 
 affiliations:
   - name: BAYESCOMP, CEMSE, KAUST
