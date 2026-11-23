@@ -33,7 +33,7 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-- block: markdown
+  - block: markdown
     content:
       title: 'My Research'
       subtitle: ''
@@ -46,7 +46,6 @@ sections:
 
         My interests have also expanded to artificial intelligence. A course I took during graduate school sparked my curiosity about how highly complex models can achieve remarkable predictive performance, while the theoretical reasons behind their success remain an active area of research. Fascinated by these questions, I hope to pursue research that advances our understanding of AI, both theoretically and practically. 
     design:
-      columns: '1'    design:
       columns: '1'
   - block: collection
     id: papers
