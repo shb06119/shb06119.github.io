@@ -37,6 +37,10 @@ links:
     url: mailto:hardy1947@naver.com
     label: E-mail Me
 
+  - icon: brands/github
+    url: https://github.com/shb06119
+    label: GitHub
+
 interests:
   - Bayesian Statistics
   - Scalable Bayesian Inference
