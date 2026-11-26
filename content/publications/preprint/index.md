@@ -31,12 +31,13 @@ share: false
 awards:
   - name: "KDISS – Honorable Mention"
     type: "Poster Presentation"
+    issuer: "Poster Presentation"
     level: winner
 
   - name: "KSS – Honorable Mention"
     type: "Paper Presentation"
+    issuer: "Paper Presentation"
     level: winner
-
 links:
   - type: poster
     url: /publications/preprint/poster.pdf
