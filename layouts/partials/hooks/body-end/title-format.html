@@ -1,0 +1,16 @@
+<script>
+function formatTitles() {
+  document.querySelectorAll("h1, h2, h3").forEach(el => {
+    el.innerHTML = el.innerHTML.replace(
+      /`ctsem`/g,
+      '<span style="font-family: monospace;">ctsem</span>'
+    );
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", formatTitles);
+} else {
+  formatTitles();
+}
+</script>
