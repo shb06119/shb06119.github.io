@@ -13,7 +13,7 @@ postnominals:
   - MIEEE
 status:
   icon: ""
-role: Researcher
+role: Research Intern
 bio: |
   I am currently a visiting research student at King Abdullah University of Science and Technology (KAUST), 
   working with Professor Håvard Rue and Research Specialist Haziq Jamil in the Bayesian Computational Statistics 
@@ -26,7 +26,8 @@ bio: |
   Hankuk University of Foreign Studies (HUFS).
 
 affiliations:
-  - name: Research Intern, BAYESCOMP, KAUST
+  - name: BAYESCOMP, CEMSE, KAUST
+    url: https://bayescomp.kaust.edu.sa/ 
   
 links:
   - icon: at-symbol
