@@ -50,12 +50,11 @@ interests:
 education:
   - degree: M.S. in Mathematical Sciences
     institution: KAIST
-    start: 2023-09
-    end: 2026-08
+    start: "2023-09 – 2026-08"
+
   - degree: B.S. in Statistics
     institution: HUFS
-    start: 2019-03
-    end: 2023-02
+    start: "2019-03 – 2023-02"
 
 experience:
   - role: Research Intern
