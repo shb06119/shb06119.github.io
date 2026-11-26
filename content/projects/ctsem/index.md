@@ -1,5 +1,5 @@
 ---
-title: "Bayesian Inference for Continuous-Time Structural Equation Models"
+title: "Bayesian Inference for Continuous-Time Structural Equation Models using `ctsem` 4.0.0"
 date: 2026-11-26
 image:
   focal_point: Center
@@ -11,14 +11,12 @@ tags:
   - R
   - Julia
 ---
-
 Efficient Bayesian inference for continuous-time structural
 equation models (CTSEM) with subject-specific random intercepts.
 
 <!--more-->
 
-## Bayesian Inference using ctsem 4.0.0
-
+## `ctsem` 4.0.0
 ### Data Preparation
 
 ```r
