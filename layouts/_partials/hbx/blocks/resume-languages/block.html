@@ -95,9 +95,9 @@
       </div>
       <span class="text-1xl text-gray-900 dark:text-white">{{ index . "name" }}</span>
       {{ if $label }}
-        <span class="text-sm text-gray-500 dark:text-gray-400 mt-1">{{ $label }}</span>
+        <span class="text-sm text-gray-500 dark:text-white mt-1">{{ $label }}</span>
       {{ else if and $level_text (not $numeric_level) }}
-        <span class="text-sm text-gray-500 dark:text-gray-400 mt-1">{{ $level_text }}</span>
+        <span class="text-sm text-gray-500 dark:text-white mt-1">{{ $level_text }}</span>
       {{ end }}
     </div>
     {{ end }}
