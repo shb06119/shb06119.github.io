@@ -25,7 +25,8 @@ bio: |
   Bayesian hierarchical modeling and small-area estimation. Prior to that, I earned my B.S. in Statistics from 
   Hankuk University of Foreign Studies (HUFS).
 
-affiliations: []
+affiliations:
+  - name: Research Intern, BAYESCOMP, KAUST
   
 links:
   - icon: at-symbol
