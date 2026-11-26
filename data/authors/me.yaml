@@ -112,12 +112,16 @@ skills:
     items:
       - name: R
         icon: custom/r
+      - name: Positron
+        icon: custom/positron
       - name: Python
         icon: custom/python
-      - name: LaTeX
-        icon: custom/latex
       - name: Jupyter
         icon: custom/jupyter
+      - name: LaTeX
+        icon: custom/latex
+      - name: Overleaf
+        icon: custom/overleaf
       - name: GitHub
         icon: custom/github
 
