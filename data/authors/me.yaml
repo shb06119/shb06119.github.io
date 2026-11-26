@@ -107,18 +107,18 @@ experience:
       Mathematics Education and Career Guidance
       
 skills:
-  - name: Technical Skills
+  - name: Programming & Tools
     items:
-      - label: Python
-        level: 3
-      - label: R
-        level: 5  
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 3
-      - label: Conference Presentations
-        level: 4
+      - name: R
+        icon: custom/r
+      - name: Python
+        icon: custom/python
+      - name: LaTeX
+        icon: custom/latex
+      - name: Jupyter
+        icon: custom/jupyter
+      - name: GitHub
+        icon: custom/github
 
 languages:
   - name: Korean
