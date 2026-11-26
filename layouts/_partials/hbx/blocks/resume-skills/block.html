@@ -19,10 +19,12 @@
           <div class="w-20 h-20 flex items-center justify-center transition-transform duration-300 hover:scale-110">
 
             {{ with .icon }}
-              {{ partial "functions/get_icon" (dict
-                "name" .
-                "attributes" "class='w-16 h-16'"
-              ) }}
+              {{ $filename := path.Base . }}
+              <img
+                src="{{ printf "media/logos/%s.svg" $filename | relURL }}"
+                alt="{{ $filename }}"
+                style="width:64px; height:64px; object-fit:contain; margin:0;"
+              >
             {{ end }}
 
           </div>
