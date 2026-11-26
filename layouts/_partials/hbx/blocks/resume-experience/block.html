@@ -283,7 +283,7 @@
 </div>
 {{ end }}
 
-{{ if gt (len $education) 0 }}
+{{ if and (ne (index $design "show_education") false) (gt (len $education) 0) }}
 <div class="w-full">
   <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "education" | default "Education" }}</h2>
 
