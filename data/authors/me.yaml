@@ -137,34 +137,40 @@ awards:
     awarder: Korean Statistical Society Annual Conference
     date: "2025"
     summary: A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
-    icon: hero/trophy
+    icon: custom/kss
+
   - title: Honorable Mention (Poster Presentation)
     awarder: Korean Data & Information Science Society Conference
     date: "2025"
     summary: A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
-    icon: hero/trophy
+    icon: custom/kdiss
+
   - title: Outstanding Teaching Assistant
     awarder: KAIST
     date: "2025 Fall"
     summary: Probability and Statistics-MAS250
-    icon: hero/trophy
+    icon: custom/kaist
+
   - title: Outstanding Teaching Assistant
     awarder: KAIST
     date: "2024 Fall"
     summary: Calculus II-MAS102
-    icon: hero/trophy
+    icon: custom/kaist
+
   - title: Best Mentor
     awarder: HUFS
     date: "2022 Fall"
     summary: Probability distributions-F10376
-    icon: hero/trophy
+    icon: custom/hufs
+
   - title: National Science and Engineering Full Scholarship
     awarder: Korea Student Aid Foundation
     date: "2021"
     summary: Two-year (2021S - 2022F) full scholarship through a national program supporting undergraduate students in science and engineering
-    icon: hero/trophy
+    icon: custom/kosaf
+
   - title: Bronze Prize
     awarder: Korean Mathematical Society
     date: "2020"
     summary: 39th Undergraduate Mathematics Competition Division II
-    icon: hero/trophy
+    icon: custom/kms
