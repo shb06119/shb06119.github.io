@@ -83,22 +83,24 @@ sections:
 
         <!-- 2010: West Kelowna -->
         <div style="position:relative; padding-bottom:40px;">
-        <span style="position:absolute; left:-69px; top:0; width:40px; height:40px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; font-size:24px; box-sizing:border-box;">🇨🇦</span>
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
+        <img src="/media/logos/shannonlake.svg" alt="Shannon Lake Elementary School" style="width:36px; height:36px; object-fit:contain; margin:0;">
+        </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2010 · WINTER</div>
-        <div style="font-size:23px; font-weight:600; margin-top:6px;">West Kelowna, Canada</div>
+        <div style="font-size:23px; font-weight:600; margin-top:6px;">🇨🇦 West Kelowna, Canada</div>
         <div style="font-size:16px; font-weight:500; margin-top:4px;">Shannon Lake Elementary School</div>
         <div style="font-size:15px; opacity:0.8; margin-top:8px;">Attended a Canadian elementary school</div>
         </div>
 
         <!-- 2019: Toronto -->
         <div style="position:relative; padding-bottom:40px;">
-        <span style="position:absolute; left:-69px; top:0; width:40px; height:40px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; font-size:24px; box-sizing:border-box;">🇨🇦</span>
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; font-size:24px; box-sizing:border-box;">🇨🇦</span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2019 · SUMMER</div>
         <div style="font-size:23px; font-weight:600; margin-top:6px;">Toronto, Canada</div>
         <div style="font-size:16px; font-weight:500; margin-top:4px;">English Language Program</div>
         <div style="font-size:15px; opacity:0.8; margin-top:8px;">Participated in a 4-week ELP during my first year of university</div>
         </div>
-
+    
         <!-- 2026: Tokyo -->
         <div style="position:relative; padding-bottom:40px;">
         <span style="position:absolute; left:-69px; top:0; width:40px; height:40px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; font-size:24px; box-sizing:border-box;">🇯🇵</span>
