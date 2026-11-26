@@ -3,12 +3,12 @@ title: 'Projects'
 date: 2024-05-19
 type: landing
 
-# Page sections
 sections:
   - block: collection
+    id: personal-projects
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: '<span class="text-gray-900 dark:text-white">Personal projects and notes on topics that interest me</span>'
       filters:
         folders:
           - projects
