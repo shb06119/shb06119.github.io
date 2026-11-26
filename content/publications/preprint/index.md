@@ -35,7 +35,7 @@ awards:
 
 links:
   - type: poster
-    url: poster.pdf
+    url: KDISS poster.pdf
 
 image:
   caption: ''
