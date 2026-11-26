@@ -33,14 +33,14 @@ awards:
     short_name: "KDISS"
     type: "Poster Presentation"
     issuer: "Poster Presentation"
-    date: "Oct - Nov, 2025"
+    date: "Oct 31, 2025"
     level: winner
 
   - name: "KSS – Honorable Mention"
     short_name: "KSS"
     type: "Paper Presentation"
     issuer: "Paper Presentation"
-    date: "Dec, 2025"
+    date: "Dec 19, 2025"
     level: winner
 
 links:
