@@ -137,3 +137,14 @@ footer p:has(a[href*="hugoblox.com"]),
 footer p:has(a[href*="hugo.chat"]) {
   display: none !important;
 }
+
+/* Publication text color in dark mode */
+html.dark .pub-list-item.view-citation {
+  color: #ffffff !important;
+}
+
+html.dark .pub-list-item.view-citation > a,
+html.dark .pub-list-item.view-citation .li-cite-author,
+html.dark .pub-list-item.view-citation .li-cite-author a {
+  color: #ffffff !important;
+}
