@@ -44,11 +44,15 @@ interests:
 education:
   - degree: M.S. in Mathematical Sciences
     institution: Korea Advanced Institute of Science and Technology
-    start: "2023-09 – 2026-08"
+    icon: custom/kaist
+    start: "2023-09"
+    end: "2026-08"
 
   - degree: B.S. in Statistics
     institution: Hankuk University of Foreign Studies
-    start: "2019-03 – 2023-02"
+    icon: custom/hufs
+    start: "2019-03"
+    end: "2023-02"
 
 experience:
   - role: Research Intern
@@ -74,6 +78,7 @@ experience:
       A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
   - role: Poster Presentation
     org: Korean Data & Information Science Society Conference
+    icon: custom/kdiss
     start: 2025-10-31
     end: 2025-11-01
     summary: |
