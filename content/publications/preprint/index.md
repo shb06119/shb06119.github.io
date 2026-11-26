@@ -26,6 +26,7 @@ tags:
   - Environmental Epidemiology
 
 featured: true
+share: false
 
 awards:
   - name: "KDISS Poster Presentation — Honorable Mention"
