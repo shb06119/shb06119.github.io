@@ -25,14 +25,8 @@ bio: |
   Bayesian hierarchical modeling and small-area estimation. Prior to that, I earned my B.S. in Statistics from 
   Hankuk University of Foreign Studies (HUFS).
 
-affiliations:
-  - name: Research Intern @ BAYESCOMP, KAUST
-    url: https://bayescomp.kaust.edu.sa/
-  - name: M.S. in Mathematical Sciences @ KAIST
-    url: https://mathsci.kaist.ac.kr/home/en/
-  - name: B.S. in Statistics @ HUFS
-    url: https://stat.hufs.ac.kr/stat/index.do
-
+affiliations: []
+  
 links:
   - icon: at-symbol
     url: mailto:hardy1947@naver.com
@@ -49,11 +43,11 @@ interests:
 
 education:
   - degree: M.S. in Mathematical Sciences
-    institution: KAIST
+    institution: Korea Advanced Institute of Science and Technology
     start: "2023-09 – 2026-08"
 
   - degree: B.S. in Statistics
-    institution: HUFS
+    institution: Hankuk University of Foreign Studies
     start: "2019-03 – 2023-02"
 
 experience:
