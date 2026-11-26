@@ -159,3 +159,16 @@ html.dark .pub-list-item.view-citation .li-cite-author a {
   padding: 0 !important;
   border: none !important;
 }
+
+h1 code {
+  font-family: monospace !important;
+  font-size: inherit !important;
+  background: transparent !important;
+  padding: 0 !important;
+  color: inherit !important;
+}
+
+h1 code::before,
+h1 code::after {
+  content: none !important;
+}
