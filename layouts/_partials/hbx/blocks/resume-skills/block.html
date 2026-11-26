@@ -25,7 +25,7 @@
               <img
                 src="{{ printf "media/logos/%s.svg" $filename | relURL }}"
                 alt="{{ $filename }}"
-                class="{{ if in (slice "latex" "github") $filename }}dark:invert{{ end }}"
+                class="{{ if in (slice "latex" "github" "jupyter") $filename }}dark:invert{{ end }}"
                 style="width:64px; height:64px; object-fit:contain; margin:0;"
               >
 
