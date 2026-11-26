@@ -53,6 +53,7 @@ education:
 experience:
   - role: Research Intern
     org: BAYESCOMP, Department of Statistics, CEMSE, KAUST
+    icon: custom/kaust
     start: 2026-09-28
     end: 2026-12-27
     summary: |
@@ -77,6 +78,7 @@ experience:
       A Comparative Study of Two-Stage Meta-Analytic Methods and Bayesian Hierarchical Models for Small-Area Estimation
   - role: Teaching Assistant
     org: Department of Mathematical Sciences, KAIST
+    icon: custom/kaist
     start: 2023-09
     end: 2026-02
     summary: |
@@ -84,6 +86,7 @@ experience:
       Introduction to Linear Algebra-MAS109 (2025S), Calculus II-MAS102 (2025F)
   - role: Mentor
     org: Department of Statistics, HUFS
+    icon: custom/HUFS
     start: 2022-09
     end: 2022-12
     summary: |
