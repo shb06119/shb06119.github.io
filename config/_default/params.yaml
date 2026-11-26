@@ -113,8 +113,8 @@ hugoblox:
   # COPYRIGHT
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
-  copyright:
-    notice: "© {year} {name}."
+copyright:
+    notice: "© {name}. Built with [Hugo Blox](https://hugoblox.com/)."
     license:
       type: custom
 
