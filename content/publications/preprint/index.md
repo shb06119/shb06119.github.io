@@ -8,7 +8,7 @@ date: '2025-12-19'
 
 publication_types: ["speech"]
 
-publication: "Conference Poster"
+publication: "Master's Research"
 
 peer_reviewed: false
 
@@ -26,6 +26,12 @@ tags:
   - Environmental Epidemiology
 
 featured: true
+
+awards:
+  - name: "KDISS Poster Presentation — Honorable Mention"
+    level: winner
+  - name: "KSS Paper Presentation — Honorable Mention"
+    level: winner
 
 links:
   - type: poster
