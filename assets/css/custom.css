@@ -148,3 +148,14 @@ html.dark .pub-list-item.view-citation .li-cite-author,
 html.dark .pub-list-item.view-citation .li-cite-author a {
   color: #ffffff !important;
 }
+
+.prose code::before,
+.prose code::after {
+  content: none !important;
+}
+
+.prose :not(pre) > code {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+}
