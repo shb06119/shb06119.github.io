@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2022-10-24
@@ -8,10 +7,8 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -20,19 +17,15 @@ sections:
         education: ''
         interests: ''
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: false
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: large
+        shape: circle
+
   - block: markdown
     content:
       title: 'My Research'
@@ -44,6 +37,7 @@ sections:
 
         Throughout my research, I frequently encountered the computational challenges of Markov Chain Monte Carlo (MCMC) methods, particularly their high computational cost. While searching for more efficient approaches to Bayesian inference, I discovered Integrated Nested Laplace Approximation (INLA). This growing interest in scalable Bayesian inference eventually brought me to KAUST, where I am currently studying the mathematical structure of continuous-time structural equation models (CTSEM) to develop more efficient methods for likelihood computation.
 
-        My interests have also expanded to artificial intelligence. A course I took during graduate school sparked my curiosity about how highly complex models can achieve remarkable predictive performance, while the theoretical reasons behind their success remain an active area of research. Fascinated by these questions, I hope to pursue research that advances our understanding of AI, both theoretically and practically. 
+        My interests have also expanded to artificial intelligence. A course I took during graduate school sparked my curiosity about how highly complex models can achieve remarkable predictive performance, while the theoretical reasons behind their success remain an active area of research. Fascinated by these questions, I hope to pursue research that advances our understanding of AI, both theoretically and practically.
     design:
       columns: '1'
+---
