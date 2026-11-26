@@ -1,0 +1,12 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("h1, h2, h3").forEach(function (heading) {
+    if (heading.textContent.includes("`ctsem`")) {
+      heading.innerHTML = heading.innerHTML.replace(
+        /`ctsem`/g,
+        '<span style="font-family: monospace;">ctsem</span>'
+      );
+    }
+  });
+});
+</script>
