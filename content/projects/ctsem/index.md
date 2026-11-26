@@ -1,6 +1,8 @@
 ---
 title: "Bayesian Inference for Continuous-Time Structural Equation Models"
 date: 2026-11-26
+image:
+  focal_point: Center
 tags:
   - Bayesian Statistics
   - CTSEM
