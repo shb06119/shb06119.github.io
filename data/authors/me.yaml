@@ -26,11 +26,12 @@ bio: |
   Hankuk University of Foreign Studies (HUFS).
 
 affiliations:
-  - name: BAYESCOMP, CEMSE, KAUST
+  - name: Research Intern @ BAYESCOMP, KAUST
     url: https://bayescomp.kaust.edu.sa/
-
-  - name: Mathematical Sciences, KAIST
+  - name: M.S. in Mathematical Sciences @ KAIST
     url: https://mathsci.kaist.ac.kr/home/en/
+  - name: B.S. in Statistics @ HUFS
+    url: https://stat.hufs.ac.kr/stat/index.do
 
 links:
   - icon: at-symbol
@@ -47,15 +48,11 @@ interests:
   - Artificial Intelligene
 
 education:
-  - degree: Visiting Student
-    institution: KAUST
-    start: 2026-09
-    end: 2026-12
-  - degree: MS Mathematical Sciences
+  - degree: M.S. in Mathematical Sciences
     institution: KAIST
     start: 2023-09
     end: 2026-08
-  - degree: BS Statistics
+  - degree: B.S. in Statistics
     institution: HUFS
     start: 2019-03
     end: 2023-02
