@@ -132,3 +132,8 @@ html.dark img.avatar {
     0 0 24px rgba(227, 178, 98, 0.28);
 }
 
+/* Hide HugoBlox promotional footer */
+footer p:has(a[href*="hugoblox.com"]),
+footer p:has(a[href*="hugo.chat"]) {
+  display: none !important;
+}
