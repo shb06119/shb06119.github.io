@@ -167,7 +167,7 @@
           {{/* Glowing dot */}}
           <div class="relative">
             <div class="absolute inset-0 w-14 h-14 bg-primary-500/30 rounded-full blur-md group-hover:bg-primary-500/50 transition-all duration-300"></div>
-            <div class="relative w-14 h-14 bg-white dark:bg-gray-900 border-2 border-primary-500 rounded-full overflow-hidden flex items-center justify-center group-hover:border-primary-400 group-hover:scale-110 transition-all duration-300">
+            <div class="relative w-14 h-14 bg-white dark:bg-white border-2 border-primary-500 rounded-full overflow-hidden flex items-center justify-center group-hover:border-primary-400 group-hover:scale-110 transition-all duration-300" style="background-color:#ffffff;">
               {{ $icon := index $item "icon" }}
               {{ if $icon }}
                 {{ partial "functions/get_icon" (dict "name" $icon "attributes" "class='w-10 h-10 text-primary-600 dark:text-primary-400'") }}
