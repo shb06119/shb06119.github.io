@@ -1,0 +1,47 @@
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $username := $content.username | default "me" }}
+{{ $profile := partial "functions/get_author_profile" $username }}
+
+<div class="mx-auto w-full max-w-4xl px-6">
+
+  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">
+    {{ $content.title | default "Programming & Tools" }}
+  </h2>
+
+  <div class="flex flex-wrap justify-center gap-8 sm:gap-12">
+
+    {{ range $profile.skills }}
+      {{ range .items }}
+
+        <div class="flex flex-col items-center gap-4">
+
+          <div class="w-20 h-20 flex items-center justify-center bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow transition-transform duration-300 hover:scale-110"
+               style="padding:8px; box-sizing:border-box;">
+
+            {{ with .icon }}
+              {{ $filename := path.Base . }}
+
+              <img
+                src="{{ printf "media/logos/%s.svg" $filename | relURL }}"
+                alt="{{ $filename }}"
+                class="{{ if in (slice "latex" "github" "jupyter") $filename }}dark:invert{{ end }}"
+                style="width:64px; height:64px; object-fit:contain; margin:0;"
+              >
+
+            {{ end }}
+
+          </div>
+
+          <span class="text-lg font-medium text-gray-900 dark:text-white">
+            {{ .name }}
+          </span>
+
+        </div>
+
+      {{ end }}
+    {{ end }}
+
+  </div>
+
+</div>
