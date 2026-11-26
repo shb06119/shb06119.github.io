@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="45mm" height="25.607929mm" viewBox="0 0 45 25.607929" version="1.1" id="svg5" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="한국장학재단.svg">
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="1" fit-margin-left="1" fit-margin-right="1" fit-margin-bottom="1" width="124.74123mm" lock-margins="true" inkscape:zoom="1.222077" inkscape:cx="68.326301" inkscape:cy="253.25737" inkscape:window-width="1523" inkscape:window-height="1091" inkscape:window-x="2691" inkscape:window-y="4" inkscape:window-maximized="0" inkscape:current-layer="layer1"/>
+  <defs id="defs2">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
+      <path d="M 0,114 H 386 V 0 H 0 Z" id="path21"/>
+    </clipPath>
+  </defs>
+  <g inkscape:label="레이어 1" inkscape:groupmode="layer" id="layer1" transform="translate(-39.783377,-109.38538)">
+    <g id="g19" clip-path="url(#clipPath23)" transform="matrix(0.47192924,0,0,-0.47192924,12.249025,149.02227)">
+      <g id="g65" transform="translate(137.6963,72.1938)">
+        <path d="m 0,0 -10.848,-4.077 11.28,-3.164 10.849,4.075 z" style="fill:#0086cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path67"/>
+      </g>
+      <g id="g69" transform="translate(129.835,41.2998)">
+        <path d="m 0,0 5.518,2.074 v 8.395 L 0,8.397 Z" style="fill:#0086cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path71"/>
+      </g>
+      <g id="g73" transform="translate(146.7241,57.9409)">
+        <path d="M 0,0 V 6.499 L -1.38,5.982 v -6.501 l -3.631,-1.364 v -10.292 -10.294 l 8.643,3.247 V -8.928 1.365 Z" style="fill:#0086cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path75"/>
+      </g>
+      <g id="g77" transform="translate(124.3154,56.0195)">
+        <path d="m 0,0 -6.243,-2.345 -6.24,-2.348 -6.243,-2.343 -6.244,1.748 -6.243,1.753 -6.242,1.753 -6.242,1.75 v -8.395 -8.397 l 6.242,-1.75 6.242,-1.753 6.243,-1.751 6.244,-1.752 6.243,2.345 6.24,2.345 6.243,2.348 v 8.397 l 5.52,2.072 v 8.397 z" style="fill:#0086cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path79"/>
+      </g>
+      <g id="g81" transform="translate(96.6172,78.9751)">
+        <path d="m 0,0 -7.231,-2.718 -7.231,-2.717 -7.23,-2.718 -7.231,-2.719 -7.231,-2.716 7.523,-2.111 7.52,-2.108 7.521,-2.111 7.519,-2.113 7.523,-2.11 7.52,-2.112 7.229,2.72 7.236,2.717 7.228,2.717 7.231,2.717 -15.042,4.221 -7.23,-2.715 h -0.003 l 7.233,2.715 14.464,5.437 -15.044,4.22 -7.52,2.109 -7.524,2.112 z m -6.65,-12.375 h 0.001 l -7.233,-2.717 z" style="fill:#0086cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path83"/>
+      </g>
+      </g>
+  </g>
+</svg>
