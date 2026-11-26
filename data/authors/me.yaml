@@ -60,12 +60,14 @@ experience:
       Scalable Bayesian inference for Continuous-time Structural Equation Model
   - role: Asia Summer School
     org: Department of Global Health Policy, Graduate School of Medicine, The University of Tokyo
+    icon: custom/utokyo
     start: 2026-07-12
     end: 2026-07-18
     summary: |
       Time Series Regression for Public Health
   - role: Student Paper Presentation
     org: Korean Statistical Society Annual Conference
+    icon: custom/kss
     start: 2025-12-19
     end: 2025-12-20
     summary: |
@@ -86,13 +88,14 @@ experience:
       Introduction to Linear Algebra-MAS109 (2025S), Calculus II-MAS102 (2025F)
   - role: Mentor
     org: Department of Statistics, HUFS
-    icon: custom/HUFS
+    icon: custom/hufs
     start: 2022-09
     end: 2022-12
     summary: |
       Mentoring Program in Probability distributions-F10376
   - role: Samsung Dream Class Mentor
     org: Samsung
+    icon: custom/samsung
     start: 2021-07
     end: 2021-12
     summary: |
