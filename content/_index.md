@@ -83,7 +83,7 @@ sections:
 
         <!-- 2010: West Kelowna -->
         <div style="position:relative; padding-bottom:40px;">
-        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#ffffff; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
         <img src="/media/logos/shannon.svg" alt="Shannon Lake Elementary School" style="width:36px; height:36px; object-fit:contain; margin:0;">
         </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2010 · WINTER</div>
@@ -94,7 +94,7 @@ sections:
 
         <!-- 2019: Toronto -->
         <div style="position:relative; padding-bottom:40px;">
-        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#ffffff; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
         <img src="/media/logos/toronto.svg" alt="Toronto" style="width:36px; height:36px; object-fit:contain; margin:0;">
         </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2019 · SUMMER</div>
@@ -105,7 +105,7 @@ sections:
 
         <!-- 2026: Tokyo -->
         <div style="position:relative; padding-bottom:40px;">
-        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#ffffff; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
         <img src="/media/logos/utokyo.svg" alt="The University of Tokyo" style="width:36px; height:36px; object-fit:contain; margin:0;">
         </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2026 · SUMMER</div>
@@ -116,7 +116,7 @@ sections:
 
         <!-- 2026: KAUST -->
         <div style="position:relative;">
-        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#eee6d0; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
+        <span style="position:absolute; left:-73px; top:0; width:48px; height:48px; border:2px solid #a59b85; border-radius:50%; background:#ffffff; display:flex; align-items:center; justify-content:center; box-sizing:border-box; overflow:hidden;">
         <img src="/media/logos/kaust.svg" alt="KAUST" style="width:36px; height:36px; object-fit:contain; margin:0;">
         </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2026 · SEPTEMBER — DECEMBER</div>
