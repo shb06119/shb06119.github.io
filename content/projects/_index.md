@@ -8,7 +8,7 @@ sections:
     id: personal-projects
     content:
       title: Projects
-      text: '<span class="text-gray-900 dark:text-white">Personal projects and notes on topics that interest me</span>'
+      text: '<span class="text-gray-900 dark:text-white">Research projects and technical notes</span>'
       filters:
         folders:
           - projects
