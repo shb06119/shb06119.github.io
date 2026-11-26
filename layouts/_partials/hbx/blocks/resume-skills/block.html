@@ -1,0 +1,41 @@
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $username := $content.username | default "me" }}
+{{ $profile := partial "functions/get_author_profile" $username }}
+
+<div class="mx-auto w-full max-w-4xl px-6">
+
+  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">
+    {{ $content.title | default "Programming & Tools" }}
+  </h2>
+
+  <div class="flex flex-wrap justify-center gap-8 sm:gap-12">
+
+    {{ range $profile.skills }}
+      {{ range .items }}
+
+        <div class="flex flex-col items-center gap-4">
+
+          <div class="w-20 h-20 flex items-center justify-center transition-transform duration-300 hover:scale-110">
+
+            {{ with .icon }}
+              {{ partial "functions/get_icon" (dict
+                "name" .
+                "attributes" "class='w-16 h-16'"
+              ) }}
+            {{ end }}
+
+          </div>
+
+          <span class="text-lg font-medium text-gray-900 dark:text-white">
+            {{ .name }}
+          </span>
+
+        </div>
+
+      {{ end }}
+    {{ end }}
+
+  </div>
+
+</div>
