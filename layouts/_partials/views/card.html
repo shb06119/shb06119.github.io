@@ -27,8 +27,8 @@
     <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
       {{/* Award badge takes priority over trending — awards are higher-signal */}}
       {{ with $item.Params.awards }}
-  <div style="position:absolute; top:12px; right:12px; left:12px; z-index:10; display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
-    {{ range . }}
+<div style="position:absolute; top:12px; right:12px; left:12px; z-index:10; display:flex; flex-direction:row; justify-content:flex-end; align-items:center; flex-wrap:wrap; gap:6px;">
+      {{ range . }}
       {{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "card-corner") }}
     {{ end }}
   </div>
