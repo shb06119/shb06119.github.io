@@ -113,11 +113,10 @@ hugoblox:
   # COPYRIGHT
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
-copyright:
-    notice: "© {name}. Built with [Hugo Blox](https://hugoblox.com/)."
+  copyright:
+    notice: "© {name}. Built with Hugo Blox."
     license:
       type: custom
-
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
   # Search engine optimization - overrides and technical settings
