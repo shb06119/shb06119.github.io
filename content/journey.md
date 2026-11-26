@@ -38,8 +38,8 @@ sections:
         </span>
         <div style="font-size:13px; letter-spacing:1.5px; opacity:0.65;">2019 · SUMMER</div>
         <div style="font-size:23px; font-weight:600; margin-top:6px;">🇨🇦 Toronto, Canada</div>
-        <div style="font-size:16px; font-weight:500; margin-top:4px;">English Language Program</div>
-        <div style="font-size:15px; opacity:0.8; margin-top:8px;">Participated in a 4-week ELP during my first year of university</div>
+        <div style="font-size:16px; font-weight:500; margin-top:4px;">English Language Program · University of Toronto</div>
+        <div style="font-size:15px; opacity:0.8; margin-top:8px;">Attended a 4-week program during my first year of university</div>
         </div>
 
         <!-- 2026: Tokyo -->
