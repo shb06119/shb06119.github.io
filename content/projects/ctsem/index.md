@@ -20,16 +20,14 @@ equation models (CTSEM) with subject-specific random intercepts.
 ### Data Preparation
 
 ```r
+install.packages("remotes")
+remotes::install_github("cdriveraus/ctsem")
 library(ctsem)
+packageVersion("ctsem")
 
 example_data <- ctsem::ctstantestdat
-
-data <- data.frame(
-  id = example_data[, "id"],
-  time = example_data[, "time"],
-  y1 = example_data[, "Y1"],
-  y2 = example_data[, "Y2"]
-)
+data <- data.frame(example_data[, 1:4])
+colnames(data) <- c("id", "time", "y1", "y2")
 ```
 
 ### Model Specification
@@ -86,9 +84,7 @@ init <- setNames(
 )
 
 init[c("g11", "g22", "u11", "u22", "sd1", "sd2")] <- -1
-
-init[c("nu1", "nu2")] <-
-  colMeans(data[c("y1", "y2")], na.rm = TRUE) / 10
+init[c("nu1", "nu2")] <- colMeans(data[c("y1", "y2")], na.rm = TRUE) / 10
 ```
 
 ### Bayesian Inference via NUTS
