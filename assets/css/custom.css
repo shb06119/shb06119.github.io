@@ -172,3 +172,8 @@ h1 code::before,
 h1 code::after {
   content: none !important;
 }
+
+/* Biography — University logos in dark mode */
+html.dark .resume-biography .group .rounded-full.bg-white {
+  background-color: #ffffff !important;
+}
